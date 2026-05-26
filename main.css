@@ -1,0 +1,91 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color: rgb(9, 15, 27);
+    color: #FFFFFF;
+}
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(238, 238, 238, 0.1);
+    padding: 12px;
+    gap: 10px;
+    border-radius: 8px;
+}
+#headline{
+    font-size: 14px;
+    text-align: start;
+    padding: 3px;
+    margin-left: 10px;
+}
+#button{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+#navigation ul, a, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+#navigation li{
+    background-color: rgba(238, 238, 238, 0.2);
+    padding: 8px;
+    border-radius: 8px;
+    width: 6rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navigation a{
+    color: #fff;
+    text-decoration: none;
+}
+#navigation li:hover {
+    background-color: rgba(238, 238, 238, 0.4);
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+section{
+    margin-top: 100px;
+}
+/*Home ni*/
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#textni{
+    width: 50%;
+    padding: 20px;
+    margin: 8px;
+}
+#textni h1{
+    font-family: 'Syne', sans-serif;
+    font-size: 64px;
+    font-weight: 800; line-height: 1.08;
+    letter-spacing: -1.5px;
+    animation: fadeDown .6s .1s ease both;
+}
+#textni p{
+    font-size: 18px;
+    line-height: 1.5;
+    animation: fadeDown .6s .3s ease both;
+}
+#pictureni{
+    width: 50%;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pictureni img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
