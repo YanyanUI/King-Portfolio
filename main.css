@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'DM Sans', sans-serif;
     background-color: rgb(9, 15, 27);
@@ -93,6 +96,7 @@ section{
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
+    text-decoration: none;
 }
 .chatbtn:hover {
     border: solid 1px cyan;
@@ -125,22 +129,28 @@ section{
     padding: 20px;
     border-radius: 18px;
     background-color: rgba(13, 26, 45, 0.4);
-    border: solid 1px cyan;
+    border: solid 1px rgba(13, 26, 45, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+#aboutme:hover{
+    border: solid 1px cyan;
 }
 #skillstat{
     width: 50%;
     padding: 20px;
     border-radius: 18px;
     background-color: rgba(13, 26, 45, 0.4);
-    border: solid 1px cyan;
+    border: solid 1px rgba(13, 26, 45, 0.4);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 5px;
+}
+#skillstat:hover{
+    border: solid 1px cyan;
 }
 .skill-label{
     display: flex;
@@ -202,4 +212,125 @@ section{
     background-color: rgba(18, 55, 73, 0.4);
     width: fit-content;
     border-radius: 8px;
+}
+/*Service ni*/
+#service-container{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 12px;
+}
+#service-container div{
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 33%;
+    background-color: rgba(13, 26, 45, 0.4);
+    border: solid 1px rgba(13, 26, 45, 0.4);
+    border-radius: 12px;
+}
+#service-container div:hover{
+    border: solid 1px cyan;
+}
+
+#services h2, p{
+    text-align: center;
+}
+#services{
+    margin-top: 100px;
+}
+/*Projects*/
+#projects h2, p{
+    text-align: center;
+}
+#projects{
+    margin-top: 100px;
+}
+#project-container{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    gap: 10px;
+}
+#project-container div{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    background-color: rgba(13, 26, 45, 0.4);
+    border: solid 1px rgba(13, 26, 45, 0.4);
+    border-radius: 12px;
+}
+#project-container div:hover{
+    border: solid 1px cyan;
+}
+/* Contact ni*/
+#contact h2, p{
+    text-align: center;
+}
+#contact{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: solid 1px rgba(13, 26, 45, 0.4);
+    width: 50%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: rgba(13, 26, 45, 0.4);
+}
+#contact div:hover{
+    border: solid 1px cyan;
+}
+#backbtn{
+    background-color: rgba(13, 26, 45, 0.4);
+    border: solid 1px rgb(13, 26, 45);
+    padding: 8px;
+    border-radius: 8px;
+    width: 6rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+#backbtn:hover{
+    border: solid 1px cyan;
+}
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: rgba(13, 26, 45, 0.4);
+}
+#footer-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+}
+#reserved{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
